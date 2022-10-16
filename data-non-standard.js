@@ -40,6 +40,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs", note_html: "The feature has to be enabled via <code>--experimental-options --js.simdjs</code> flag"},
         graalvm20: false,
         rhino1_7_13: false
@@ -63,6 +64,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -86,6 +88,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -109,6 +112,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -132,6 +136,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -155,6 +160,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -178,6 +184,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -201,6 +208,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -224,6 +232,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -247,6 +256,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -270,6 +280,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -295,6 +306,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -320,6 +332,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -345,6 +358,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -370,6 +384,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -395,6 +410,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -420,6 +436,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -445,6 +462,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -470,6 +488,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -495,6 +514,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -520,6 +540,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -545,6 +566,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -570,6 +592,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -595,6 +618,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -620,6 +644,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -645,6 +670,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -670,6 +696,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -694,6 +721,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -718,6 +746,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -742,6 +771,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -767,6 +797,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -793,6 +824,7 @@ exports.tests = [
         edge14: edge.experimental,
         edge15: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -818,6 +850,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -844,6 +877,7 @@ exports.tests = [
         edge14: edge.experimental,
         edge15: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -869,6 +903,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -894,6 +929,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -919,6 +955,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -944,6 +981,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -969,6 +1007,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -994,6 +1033,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1019,6 +1059,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1044,6 +1085,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1069,6 +1111,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1094,6 +1137,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1119,6 +1163,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1144,6 +1189,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1169,6 +1215,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1194,6 +1241,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1218,6 +1266,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1242,6 +1291,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1266,6 +1316,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1291,6 +1342,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1316,6 +1368,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1341,6 +1394,7 @@ exports.tests = [
         chrome37: chrome.simd,
         chrome58: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1366,6 +1420,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1391,6 +1446,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1414,6 +1470,7 @@ exports.tests = [
         chrome58: false,
         edge14: edge.experimental,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: {val: 'flagged', note_id: "graalvm-simdjs"},
         graalvm20: false,
         rhino1_7_13: false
@@ -1440,6 +1497,7 @@ exports.tests = [
         chrome77: false,
         rhino1_7_13: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false
       }
     },
@@ -1467,6 +1525,7 @@ exports.tests = [
         besen: true,
         rhino1_7_13: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false
       }
     },
@@ -1483,6 +1542,7 @@ exports.tests = [
         chrome77: false,
         rhino1_7_13: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false
       }
     },
@@ -1586,6 +1646,7 @@ exports.tests = [
         besen: null,
         rhino1_7_13: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false
       }
     }
@@ -1608,6 +1669,7 @@ exports.tests = [
     chrome77: false,
     rhino1_7_13: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -1632,6 +1694,7 @@ exports.tests = [
     phantom1_9: true,
     android4_0: true,
     duktape2_0: false,
+    jint3b: true,
     graalvm19: true
   }
 },
@@ -1657,6 +1720,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1683,6 +1747,7 @@ exports.tests = [
     phantom1_9: true,
     android4_0: true,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: true,
     graalvm21_3_3: graalvm.v8CompatFlag
   }
@@ -1710,6 +1775,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -1731,6 +1797,7 @@ exports.tests = [
     opera10_50: false,
     chrome77: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false,
     rhino1_7_13: false
   },
@@ -1757,6 +1824,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1781,6 +1849,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1810,6 +1879,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -1841,6 +1911,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1864,6 +1935,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -1892,6 +1964,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1913,6 +1986,7 @@ exports.tests = [
     opera10_50: false,
     chrome77: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false,
     rhino1_7_13: false
   }
@@ -1938,6 +2012,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -1966,6 +2041,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -1994,6 +2070,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -2023,6 +2100,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -2063,6 +2141,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2105,6 +2184,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2157,6 +2237,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
 },
@@ -2183,6 +2264,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2210,6 +2292,7 @@ exports.tests = [
     opera10_50: false,
     chrome77: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false,
     rhino1_7_13: false
   },
@@ -2241,6 +2324,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2262,6 +2346,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2285,6 +2370,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -2307,6 +2393,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2325,6 +2412,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -2348,6 +2436,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
 },
@@ -2375,6 +2464,7 @@ exports.tests = [
     ejs: true,
     android4_0: true,
     duktape2_0: false,
+    jint3b: true,
     graalvm19: false
   },
   separator: 'after'
@@ -2398,6 +2488,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2420,6 +2511,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   }
 },
@@ -2441,6 +2533,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
 },
@@ -2461,6 +2554,7 @@ exports.tests = [
     node0_10: true,
     android5_0: true,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false,
     rhino1_7_13: false
   },
@@ -2494,6 +2588,7 @@ exports.tests = [
     phantom1_9: false,
     android4_0: true,
     duktape2_0: true,
+    jint3b: true,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -2520,6 +2615,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: true,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -2548,6 +2644,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -2575,6 +2672,7 @@ exports.tests = [
     rhino1_7_13: true,
     phantom1_9: false,
     duktape2_0: true,
+    jint3b: false,
     nashorn1_8: true,
     nashorn9: true,
     nashorn10: true,
@@ -2600,6 +2698,7 @@ exports.tests = [
     rhino1_7_13: false,
     phantom1_9: false,
     duktape2_0: false,
+    jint3b: false,
     graalvm19: false
   },
   separator: 'after'
@@ -2633,6 +2732,7 @@ exports.tests = [
         node8_3: true,
         node8_7: true,
         duktape2_0: false,
+        jint3b: false,
         duktape2_1: true,
         duktape2_5: false,
         graalvm19: true,
@@ -2671,6 +2771,7 @@ exports.tests = [
         node8_3: false,
         node8_7: false,
         duktape2_0: false,
+        jint3b: false,
         duktape2_1: true,
         duktape2_5: false,
         graalvm19: false,
@@ -2710,6 +2811,7 @@ exports.tests = [
     safari10_1: true,
     safari13: false,
     duktape2_0: true,
+    jint3b: false,
     graalvm19: true,
     graalvm20: false,
     rhino1_7_13: false

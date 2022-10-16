@@ -1,4 +1,5 @@
 var fs = require('fs');
+var chalk = require('chalk');
 
 exports.createIterableHelper =
 'function __createIterableObject(arr, methods) {\n' +
@@ -205,14 +206,14 @@ exports.runTests = function runTests(runner, key, family, options) {
                         // Matches.
                     } else if (expect === undefined) {
                         testOutOfDate++;
-                        console.log(testPath + ': test result missing, res: ' + JSON.stringify(expect) + ', actual: ' + JSON.stringify(actual));
+                        console.log(chalk.bold.blue(testPath) + ': test result missing, res: ' + chalk.red(JSON.stringify(expect)) + ', actual: ' + chalk.green(JSON.stringify(actual)));
                     } else {
                         testOutOfDate++;
-                        console.log(testPath + ': test result out of date, res: ' + JSON.stringify(expect) + ', actual: ' + JSON.stringify(actual));
+                        console.log(chalk.bold.blue(testPath) + ': test result out of date, res: ' + chalk.red(JSON.stringify(expect)) + ', actual: ' + chalk.green(JSON.stringify(actual)));
                     }
                 } else {
                     testOutOfDate++;
-                    console.log(testPath + ': test.res missing');
+                    console.log(chalk.bold.blue(testPath) + ': test.res missing');
                 }
             }
         }

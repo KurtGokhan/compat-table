@@ -28,6 +28,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -48,6 +49,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -75,6 +77,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -96,6 +99,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -117,6 +121,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -180,6 +185,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -213,6 +219,7 @@ exports.tests = [
         chrome81: true,
         safari14: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false,
         graalvm20_1: true,
         rhino1_7_13: true
@@ -241,6 +248,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -268,6 +276,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -295,6 +304,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -315,6 +325,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -336,6 +347,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -357,6 +369,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -420,6 +433,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -453,6 +467,7 @@ exports.tests = [
         chrome81: true,
         safari14: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: true
       }
@@ -480,6 +495,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -501,6 +517,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -522,6 +539,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -585,6 +603,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -617,6 +636,7 @@ exports.tests = [
         firefox76: true,
         chrome81: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: false,
         graalvm20_1: true,
         rhino1_7_13: true
@@ -646,6 +666,7 @@ exports.tests = [
         android4_0: null,
         ios7: false,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -674,6 +695,7 @@ exports.tests = [
         opera10_50: false,
         node0_12: true,
         duktape2_0: false,
+        jint3b: false,
         graalvm19: true,
         rhino1_7_13: false
       }
@@ -701,7 +723,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -732,7 +755,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -763,7 +787,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -794,7 +819,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -825,7 +851,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -856,7 +883,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,
@@ -887,7 +915,8 @@ exports.tests = [
         ios7: true,
         node0_10: true,
         android4_0: true,
-        duktape2_0: true,
+        duktape2_0: false,
+        jint3b: true,
         nashorn1_8: true,
         nashorn9: true,
         nashorn10: true,

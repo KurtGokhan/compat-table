@@ -1,4 +1,12 @@
 {
+  "jint3b": {
+    "full": "Jint 3 Beta",
+    "family": "Jint",
+    "short": "Jint 3",
+    "platformtype": "engine",
+    "release": "2022-10-16",
+    "obsolete": false
+  },
   "es6tr": {
     "full": "ES6 Transpiler",
     "short": "ES6<br>Trans-<br>piler",
