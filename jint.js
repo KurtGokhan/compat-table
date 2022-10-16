@@ -48,7 +48,6 @@ function jintRunner(testFilename) {
     try {
         var stdout = child_process.execFileSync(jintCommand, [testFilename], {
             encoding: 'utf-8',
-            stdio: 'pipe',
         });
 
         return /^\[SUCCESS\]$/m.test(stdout);
