@@ -5015,7 +5015,7 @@ return Math.min(1,2,3,) === 1;
 <td class="yes" data-browser="opera_mobile71">Yes</td>
 </tr>
 <tr class="supertest" significance="1"><td id="test-async_functions"><span><a class="anchor" href="#test-async_functions">&#xA7;</a><a href="https://tc39.github.io/ecma262/#sec-async-function-definitions">async functions</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span></td>
-<td class="tally" data-browser="jint3b" data-tally="0.125" style="background-color:hsl(15,80%,50%)">2/16</td>
+<td class="tally" data-browser="jint3b" data-tally="0.75" style="background-color:hsl(90,53%,50%)">12/16</td>
 <td class="tally obsolete" data-browser="tr" data-tally="0.25" style="background-color:hsl(30,75%,50%)">4/16</td>
 <td class="tally obsolete" data-browser="babel6corejs2" data-tally="0.25" style="background-color:hsl(30,75%,50%)">4/16</td>
 <td class="tally obsolete" data-browser="babel7corejs2" data-tally="0.5625" style="background-color:hsl(67,61%,50%)">9/16</td>
@@ -5197,7 +5197,7 @@ p.then(function(result) {
 });
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("28");try{return Function("asyncTestPassed","\nasync function a(){\n  return \"foo\";\n}\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("28");return Function("asyncTestPassed","'use strict';"+"\nasync function a(){\n  return \"foo\";\n}\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="yes obsolete" data-browser="tr">Yes</td>
 <td class="yes obsolete" data-browser="babel6corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -5379,7 +5379,7 @@ p.catch(function(result) {
 });
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("29");try{return Function("asyncTestPassed","\nasync function a(){\n  throw \"foo\";\n}\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.catch(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("29");return Function("asyncTestPassed","'use strict';"+"\nasync function a(){\n  throw \"foo\";\n}\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.catch(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -5723,7 +5723,7 @@ async function a(){};
 return !a.hasOwnProperty(&quot;prototype&quot;);
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("31");try{return Function("asyncTestPassed","\nasync function a(){};\nreturn !a.hasOwnProperty(\"prototype\");\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("31");return Function("asyncTestPassed","'use strict';"+"\nasync function a(){};\nreturn !a.hasOwnProperty(\"prototype\");\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="unknown obsolete" data-browser="babel7corejs2">?</td>
@@ -6430,7 +6430,7 @@ try { Function(&quot;(async function a(){ await; }())&quot;)(); } catch(e) { ret
 }());
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("35");try{return Function("asyncTestPassed","\n(async function (){\n  await Promise.resolve();\n  var e = await \"foo\";\n  if (e === \"foo\") {\n    asyncTestPassed();\n  }\n}());\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("35");return Function("asyncTestPassed","'use strict';"+"\n(async function (){\n  await Promise.resolve();\n  var e = await \"foo\";\n  if (e === \"foo\") {\n    asyncTestPassed();\n  }\n}());\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -6784,7 +6784,7 @@ p.then(function(result) {
 });
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("37");try{return Function("asyncTestPassed","\nvar o = {\n  async a(){ return await Promise.resolve(\"foo\"); }\n};\nvar p = o.a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("37");return Function("asyncTestPassed","'use strict';"+"\nvar o = {\n  async a(){ return await Promise.resolve(\"foo\"); }\n};\nvar p = o.a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -6966,7 +6966,7 @@ p.then(function(result) {
 });
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("38");try{return Function("asyncTestPassed","\nclass C {\n  async a(){ return await Promise.resolve(\"foo\"); }\n};\nvar p = new C().a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("38");return Function("asyncTestPassed","'use strict';"+"\nclass C {\n  async a(){ return await Promise.resolve(\"foo\"); }\n};\nvar p = new C().a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -7148,7 +7148,7 @@ class C {
 var p = new C().a();
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("39");try{return Function("asyncTestPassed","\nfunction doSomething(callback) {\n  callback();\n}\nclass C {\n  a(){\n    doSomething(async () => {\n      await 1;\n      asyncTestPassed();\n    });\n  }\n};\nvar p = new C().a();\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("39");return Function("asyncTestPassed","'use strict';"+"\nfunction doSomething(callback) {\n  callback();\n}\nclass C {\n  a(){\n    doSomething(async () => {\n      await 1;\n      asyncTestPassed();\n    });\n  }\n};\nvar p = new C().a();\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="yes obsolete" data-browser="tr">Yes</td>
 <td class="yes obsolete" data-browser="babel6corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes<a href="#babel-regenerator-note"><sup>[15]</sup></a></td>
@@ -7501,7 +7501,7 @@ return asyncFunctionProto !== function(){}.prototype
   &amp;&amp; Object.getPrototypeOf(asyncFunctionProto) === Function.prototype;
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("41");try{return Function("asyncTestPassed","\nvar asyncFunctionProto = Object.getPrototypeOf(async function (){});\nreturn asyncFunctionProto !== function(){}.prototype\n  && Object.getPrototypeOf(asyncFunctionProto) === Function.prototype;\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("41");return Function("asyncTestPassed","'use strict';"+"\nvar asyncFunctionProto = Object.getPrototypeOf(async function (){});\nreturn asyncFunctionProto !== function(){}.prototype\n  && Object.getPrototypeOf(asyncFunctionProto) === Function.prototype;\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="unknown obsolete" data-browser="babel7corejs2">?</td>
@@ -7672,7 +7672,7 @@ return asyncFunctionProto !== function(){}.prototype
 return Object.getPrototypeOf(async function (){})[Symbol.toStringTag] === &quot;AsyncFunction&quot;;
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("42");try{return Function("asyncTestPassed","\nreturn Object.getPrototypeOf(async function (){})[Symbol.toStringTag] === \"AsyncFunction\";\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("42");return Function("asyncTestPassed","'use strict';"+"\nreturn Object.getPrototypeOf(async function (){})[Symbol.toStringTag] === \"AsyncFunction\";\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="unknown obsolete" data-browser="babel7corejs2">?</td>
@@ -7852,7 +7852,7 @@ p.then(function(result) {
 });
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("43");try{return Function("asyncTestPassed","\nvar a = async function (){}.constructor(\"return 'foo';\");\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("43");return Function("asyncTestPassed","'use strict';"+"\nvar a = async function (){}.constructor(\"return 'foo';\");\nvar p = a();\nif (!(p instanceof Promise)) {\n  return false;\n}\np.then(function(result) {\n  if (result === \"foo\") {\n    asyncTestPassed();\n  }\n});\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="unknown obsolete" data-browser="babel7corejs2">?</td>
@@ -20740,7 +20740,7 @@ return Array.prototype[Symbol.unscopables].flat
 <tr class="category"><td colspan="169"><span>2019 misc</span></td>
 </tr>
 <tr class="supertest" significance="0.25"><td id="test-optional_catch_binding"><span><a class="anchor" href="#test-optional_catch_binding">&#xA7;</a><a href="https://github.com/tc39/proposal-optional-catch-binding">optional catch binding</a></span></td>
-<td class="tally" data-browser="jint3b" data-tally="0.3333333333333333" style="background-color:hsl(40,71%,50%)">1/3</td>
+<td class="tally" data-browser="jint3b" data-tally="0.6666666666666666" style="background-color:hsl(80,56%,50%)">2/3</td>
 <td class="tally obsolete" data-browser="tr" data-tally="0">0/3</td>
 <td class="tally obsolete" data-browser="babel6corejs2" data-tally="0">0/3</td>
 <td class="tally obsolete" data-browser="babel7corejs2" data-tally="1">3/3</td>
@@ -21095,7 +21095,7 @@ return false;
 })();
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("119");try{return Function("asyncTestPassed","\n(async function (){\n  try {\n    await Promise.reject();\n  }\n  catch {\n    asyncTestPassed();\n  }\n})();\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("119");return Function("asyncTestPassed","'use strict';"+"\n(async function (){\n  try {\n    await Promise.reject();\n  }\n  catch {\n    asyncTestPassed();\n  }\n})();\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes</td>
@@ -28183,7 +28183,7 @@ Promise.any([
 <td class="yes" data-browser="opera_mobile71">Yes</td>
 </tr>
 <tr class="supertest" significance="1"><td id="test-WeakReferences"><span><a class="anchor" href="#test-WeakReferences">&#xA7;</a><a href="https://github.com/tc39/proposal-weakrefs">WeakReferences</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakRef" title="MDN documentation"><img src="../mdn.png" alt="MDN (Mozilla Development Network) logo" width="15" height="13"></a>&#xA0;</span></td>
-<td class="tally" data-browser="jint3b" data-tally="0.5" style="background-color:hsl(60,64%,50%)">1/2</td>
+<td class="tally" data-browser="jint3b" data-tally="1">2/2</td>
 <td class="tally obsolete" data-browser="tr" data-tally="0">0/2</td>
 <td class="tally obsolete" data-browser="babel6corejs2" data-tally="0">0/2</td>
 <td class="tally obsolete" data-browser="babel7corejs2" data-tally="0">0/2</td>
@@ -28528,7 +28528,7 @@ var fr = new FinalizationRegistry(function() {});
 return Object.getPrototypeOf(fr) === FinalizationRegistry.prototype;
         ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("162");try{return Function("asyncTestPassed","\nvar fr = new FinalizationRegistry(function() {});\nreturn Object.getPrototypeOf(fr) === FinalizationRegistry.prototype;\n        ")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("162");return Function("asyncTestPassed","'use strict';"+"\nvar fr = new FinalizationRegistry(function() {});\nreturn Object.getPrototypeOf(fr) === FinalizationRegistry.prototype;\n        ")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="unknown obsolete" data-browser="babel6corejs2">?</td>
 <td class="unknown obsolete" data-browser="babel7corejs2">?</td>
