@@ -4,7 +4,7 @@
  *  Reports discrepancies to console; fix them manually in data-*.js files.
  *  Expects a Jint.Repl executable in 'jint' directory.  Example:
  *
- *    $ node jint.js ---bin /path/to/hermes --suite suitename
+ *    $ node jint.js ---bin ./jint/Jint.Repl.exe --suite suitename
  * 
  *  suitename can be 'all'
  */
