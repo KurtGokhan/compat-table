@@ -94,7 +94,7 @@ exports.tests = [
     opera10_50: false,
     chrome77: false,
     duktape2_0: false,
-    jint3b: false,
+    jint3b: true,
     graalvm19: false,
     reactnative0_70_3: false,
     rhino1_7_13: false

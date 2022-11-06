@@ -4339,7 +4339,7 @@ exports.tests = [
           safari13: true,
           safaritp: true,
           duktape2_0: false,
-          jint3b: false,
+          jint3b: true,
           jerryscript2_3_0: false,
           jerryscript2_4_0: true,
           graalvm19: true,
