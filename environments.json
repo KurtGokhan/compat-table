@@ -1718,7 +1718,7 @@
     "short": "FF 92",
     "release": "2021-09-07",
     "retire": "2021-10-05",
-    "obsolete": true
+    "obsolete": "very"
   },
   "firefox93": {
     "full": "Firefox 93",
@@ -1813,7 +1813,7 @@
     "short": "FF 104",
     "release": "2022-08-23",
     "retire": "2022-09-20",
-    "obsolete": false
+    "obsolete": true
   },
   "firefox105": {
     "full": "Firefox 105",
@@ -1824,19 +1824,27 @@
     "obsolete": false
   },
   "firefox106": {
-    "full": "Firefox 106 Beta",
+    "full": "Firefox 106",
     "family": "SpiderMonkey",
     "short": "FF 106",
     "release": "2022-10-18",
     "retire": "2022-11-15",
-    "unstable": true
+    "obsolete": false
   },
   "firefox107": {
-    "full": "Firefox 107 Nightly",
+    "full": "Firefox 107 Beta",
     "family": "SpiderMonkey",
     "short": "FF 107",
     "release": "2022-11-15",
     "retire": "2022-12-13",
+    "unstable": true
+  },
+  "firefox108": {
+    "full": "Firefox 108 Nightly",
+    "family": "SpiderMonkey",
+    "short": "FF 108",
+    "release": "2022-12-13",
+    "retire": "2023-01-17",
     "unstable": true
   },
   "opera7": {
@@ -2786,7 +2794,7 @@
     "family": "V8",
     "short": "CH 95",
     "release": "2021-10-19",
-    "obsolete": true
+    "obsolete": "very"
   },
   "chrome96": {
     "full": "Chrome 96",
@@ -2863,12 +2871,19 @@
     "family": "V8",
     "short": "CH 106",
     "release": "2022-09-27",
-    "obsolete": false
+    "obsolete": true
   },
   "chrome107": {
-    "full": "Chrome 107 Beta",
+    "full": "Chrome 107",
     "family": "V8",
     "short": "CH 107",
+    "release": "2022-10-25",
+    "obsolete": false
+  },
+  "chrome108": {
+    "full": "Chrome 108 Beta",
+    "family": "V8",
+    "short": "CH 108",
     "unstable": true
   },
   "edge12": {
@@ -3056,7 +3071,7 @@
     "release": "2021-09-24",
     "retire": "2021-10-21",
     "equals": "chrome94",
-    "obsolete": true
+    "obsolete": "very"
   },
   "edge95": {
     "full": "Microsoft Edge 95",
@@ -3144,13 +3159,21 @@
     "short": "Edge 105",
     "equals": "chrome105",
     "release": "2022-09-26",
-    "obsolete": false
+    "obsolete": true
   },
   "edge106": {
-    "full": "Microsoft Edge 105 Beta",
+    "full": "Microsoft Edge 106",
     "family": "V8",
-    "short": "Edge 106 Beta",
+    "short": "Edge 106",
     "equals": "chrome106",
+    "release": "2022-10-03",
+    "obsolete": false
+  },
+  "edge107": {
+    "full": "Microsoft Edge 107 Beta",
+    "family": "V8",
+    "short": "Edge 107",
+    "equals": "chrome107",
     "unstable": true
   },
   "safari1": {
@@ -3983,13 +4006,21 @@
     "equals": "chrome105",
     "short": "OP 91",
     "release": "2022-09-14",
-    "obsolete": false
+    "obsolete": true
   },
   "opera92": {
     "full": "Opera 92",
     "family": "V8",
     "equals": "chrome106",
     "short": "OP 92",
+    "release": "2022-10-19",
+    "obsolete": false
+  },
+  "opera93": {
+    "full": "Opera 93 Beta",
+    "family": "V8",
+    "equals": "chrome107",
+    "short": "OP 93",
     "unstable": true
   },
   "rhino1_7_13": {
@@ -4258,7 +4289,7 @@
     "note_id": "harmony-flag",
     "release": "2015-09-08",
     "retire": "2018-04-01",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4315,7 +4346,7 @@
     "equals": "chrome51",
     "release": "2016-08-16",
     "retire": "2019-04-18",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4334,7 +4365,7 @@
     "equals": "chrome54",
     "release": "2016-10-25",
     "retire": "2017-02-21",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4353,7 +4384,7 @@
     "equals": "chrome55",
     "release": "2017-02-21",
     "retire": "2017-05-30",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4372,7 +4403,7 @@
     "equals": "chrome58",
     "release": "2017-05-30",
     "retire": "2017-08-08",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4390,7 +4421,7 @@
     "note_id": "harmony-flag",
     "equals": "chrome60",
     "release": "2017-08-08",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4408,7 +4439,7 @@
     "note_id": "harmony-flag",
     "equals": "chrome61",
     "release": "2017-10-11",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4427,7 +4458,7 @@
     "equals": "chrome62",
     "release": "2018-03-07",
     "retire": "2019-12-31",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4445,7 +4476,7 @@
     "note_id": "harmony-flag",
     "equals": "chrome66",
     "release": "2018-04-24",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4463,7 +4494,7 @@
     "note_id": "harmony-flag",
     "equals": "chrome67",
     "release": "2018-06-06",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4482,7 +4513,7 @@
     "equals": "chrome68",
     "release": "2018-08-15",
     "retire": "2021-04-30",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4500,7 +4531,7 @@
     "note_id": "harmony-flag",
     "equals": "chrome70",
     "release": "2018-10-23",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "es6",
@@ -4573,7 +4604,7 @@
     "equals": "chrome77",
     "release": "2019-09-25",
     "retire": "2022-04-30",
-    "obsolete": false,
+    "obsolete": true,
     "test_suites": [
       "es5",
       "es6",
@@ -4766,6 +4797,7 @@
     "platformtype": "engine",
     "equals": "chrome96",
     "release": "2021-11-30",
+    "obsolete": true,
     "test_suites": [
       "es5",
       "es6",
@@ -4778,10 +4810,42 @@
   "node18_0": {
     "full": "Node.js",
     "family": "Node.js",
-    "short": "Node &gt;=18",
+    "short": "Node &gt;=18.0 &lt;18.3",
     "platformtype": "engine",
     "equals": "chrome101",
     "release": "2022-04-18",
+    "test_suites": [
+      "es5",
+      "es6",
+      "es2016plus",
+      "esnext",
+      "esintl",
+      "non-standard"
+    ]
+  },
+  "node18_3": {
+    "full": "Node.js",
+    "family": "Node.js",
+    "short": "Node &gt;=18.3 &lt;19",
+    "platformtype": "engine",
+    "equals": "chrome102",
+    "release": "2022-06-02",
+    "test_suites": [
+      "es5",
+      "es6",
+      "es2016plus",
+      "esnext",
+      "esintl",
+      "non-standard"
+    ]
+  },
+  "node19_0": {
+    "full": "Node.js",
+    "family": "Node.js",
+    "short": "Node &gt;=19",
+    "platformtype": "engine",
+    "equals": "chrome107",
+    "release": "2022-10-17",
     "test_suites": [
       "es5",
       "es6",
@@ -5261,12 +5325,20 @@
     "short": "Hermes 0.7.0",
     "platformtype": "engine",
     "release": "2020-09-16",
-    "obsolete": false,
+    "obsolete": true,
     "test_suites": [
       "es5",
       "es6",
       "es2016plus"
     ]
+  },
+  "hermes0_12_0": {
+    "full": "Hermes 0.12.0",
+    "family": "Hermes",
+    "short": "Hermes 0.12.0",
+    "platformtype": "engine",
+    "release": "2022-08-24",
+    "obsolete": false
   },
   "deno1_0": {
     "equals": "chrome84",
@@ -6670,6 +6742,14 @@
     "platformtype": "mobile",
     "equals": "chrome104",
     "release": "2022-09-02",
+    "obsolete": false
+  },
+  "reactnative0_70_3": {
+    "full": "React Native 0.70.3 (Using bundled Hermes and metro-react-native babel preset)",
+    "family": "React-Native",
+    "short": "React Native 0.70.3 (Hermes + Babel)",
+    "platformtype": "mobile",
+    "release": "2022-10-12",
     "obsolete": false
   }
 }
