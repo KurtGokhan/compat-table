@@ -2038,7 +2038,7 @@ exports.tests = [
       chrome49: true,
       safari10_1: true,
       duktape2_0: false,
-      jint3b: false,
+      jint3b: true,
       jerryscript2_3_0: true,
       graalvm19: true,
       hermes0_7_0: true,

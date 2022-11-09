@@ -2486,7 +2486,7 @@ return x === 1 &amp;&amp; y === 2 &amp;&amp; z + &apos;&apos; === &apos;3,4&apos
 }([1,2,3,4]);
 ">test(function(){try{var asyncTestPassed=global.__asyncPassedFn && __asyncPassedFn("13");try{return Function("asyncTestPassed","\nreturn function([x, ...[y, ...z]]) {\nreturn x === 1 && y === 2 && z + '' === '3,4';\n}([1,2,3,4]);\n")(asyncTestPassed)}catch(e){asyncTestPassed=global.__strictAsyncPassedFn && __strictAsyncPassedFn("13");return Function("asyncTestPassed","'use strict';"+"\nreturn function([x, ...[y, ...z]]) {\nreturn x === 1 && y === 2 && z + '' === '3,4';\n}([1,2,3,4]);\n")(asyncTestPassed)&&"Strict"}}catch(e){return false;}}());
 </script></td>
-<td class="no" data-browser="jint3b">No</td>
+<td class="yes" data-browser="jint3b">Yes</td>
 <td class="unknown obsolete" data-browser="tr">?</td>
 <td class="yes obsolete" data-browser="babel6corejs2">Yes</td>
 <td class="yes obsolete" data-browser="babel7corejs2">Yes</td>
